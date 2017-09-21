@@ -59,18 +59,18 @@ block content
       h4(data-i18n="teacher.getting_started")
       ul
         li
-          strong Classroom-in-a-Box Pacing Guides
-          p Learn how to incorporate all of CodeCombat's resources to plan your school year!
+          strong(data-i18n="teacher.pacing_guides")
+          p 
+            span(data-i18n="teacher.pacing_guides_desc")
             br
-            // TODO: upload pdfs and link here
-            a(href="")
-              span Elementary School Pacing Guide
+            a(href="http://files.codecombat.com/docs/resources/ElementaryPacing.pdf")
+              span(data-i18n="teacher.pacing_guides_elem")
             span.spl.spr | 
-            a(href="")
-              span Middle School Pacing Guide
+            a(href="http://files.codecombat.com/docs/resources/MiddleSchoolPacing.pdf")
+              span(data-i18n="teacher.pacing_guides_middle")
             span.spl.spr | 
-            a(href="")
-              span High School Pacing Guide
+            a(href="http://files.codecombat.com/docs/resources/HighSchoolPacing.pdf")
+              span(data-i18n="teacher.pacing_guides_high")
         li
           a(href="/teachers/resources/faq")
             span(data-i18n="teacher.educator_faq")
